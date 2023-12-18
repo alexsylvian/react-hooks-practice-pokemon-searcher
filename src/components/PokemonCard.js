@@ -5,7 +5,6 @@ function PokemonCard({ name, hp, frontSprites, backSprites }) {
   const [showFront, setShowFront] = useState(true)
 
   function handleClick(){
-    console.log("hi")
     if (!showFront) {
       setShowFront(true)
     } else {
